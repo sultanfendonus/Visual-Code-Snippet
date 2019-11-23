@@ -1,0 +1,18 @@
+{
+
+	"mongoose-model-sunny":{
+		"prefix": "mongoose-model",
+		"body": [
+			"const mongoose = require('mongoose');",
+			"const Schema = mongoose.Schema;",
+			"",
+			"const ${SchemaName} = new Schema({",
+   
+			"})",
+			"",
+			"const ${ModelName} = mongoose.model('${modelString}',${SchemaName});",
+			"module.exports = ${ModelName};"
+		],
+		"description": "This is mongoose model snippet developed by Sunny Sultan"
+	}
+}
