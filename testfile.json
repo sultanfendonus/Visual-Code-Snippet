@@ -1,0 +1,16 @@
+{
+	"testFile":{
+		"prefix": "testfilegen",
+		"body": [
+			"const ${model} = require('../models/${model}')",
+			"const assert = require('assert');",
+			"",
+			"describe('${describeTheTest}',()=>{",
+    		"\t it('${specifyTheTestOutput}',(done)=>{",
+			"",
+    		"\t })",
+			"})"
+		],
+		"description": "This is mongoose model snippet developed by Sunny Sultan"
+	}
+}
